@@ -23,5 +23,17 @@
         </div>
         <button type="submit" class="btn btn-primary">Create Post</button>
     </form>
+    <div class="form-group">
+        <label for="physical_properties">Physical Properties</label>
+        <textarea name="physical_properties" id="physical_properties" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="number" name="price" id="price" class="form-control" step="0.01">
+    </div>
+    <div class="form-group">
+        <label for="delivery_conditions">Delivery Conditions</label>
+        <textarea name="delivery_conditions" id="delivery_conditions" class="form-control"></textarea>
+    </div>
 </div>
 @endsection
